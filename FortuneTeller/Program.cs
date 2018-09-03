@@ -1,12 +1,14 @@
 ﻿using System;
 
-namespace FortuneTeller
+namespace NextBirthday
 {
-    class Program
+    public static class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.ReadLine();
         }
+
+        // TODO: Create a method that takes the date someone was born and returns the name of the day on their next birthday.
     }
 }
