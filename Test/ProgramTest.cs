@@ -19,7 +19,7 @@ namespace Test
         {
             string nextYear = DateTime.Today.AddDays(-1).AddYears(1).DayOfWeek.ToString();
 
-            Assert.Equal(nextYear, Program.NextBirthdayDay(DateTime.Today.AddDays(-1)));
+            Assert.Equal("Sunday", Program.NextBirthdayDay(DateTime.Today.AddDays(-1)));
         }
     }
 }
